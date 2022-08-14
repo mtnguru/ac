@@ -13,7 +13,7 @@ blocks:
 
   buttons:
     controls:
-#     toggle--select-scene:       ['Select Scene',     'button',       {font-awesome: fa-picture-o,      data-blockid: blocks--select-scene}]
+      toggle--select-scene:       ['Select Scene',     'button',       {font-awesome: fa-picture-o,      data-blockid: blocks--select-scene}]
 #     toggle--properties:         ['Properties',       'button',       {font-awesome: fa-list,           data-blockid: blocks--properties}]
       bessel--dialog:             ['Bessel Graph',     'toggleDialog', {font-awesome: fa-chart-line,     data-module: 'bessel',  data-container: '.az-wrapper'}]
 #     toggle--information:        ['Description',      'button',       {font-awesome: fa-info-circle,    data-blockid: blocks--information}]

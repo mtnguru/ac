@@ -24,10 +24,10 @@ Element,Type,"Nuclet ID","Nuclet Type","Particle ID",X,Y,Z,Xn,Yn,Zn
 "Neon 20",electron,N0,initial,E02,-119.35,47.875,69.05,-119.35,47.875,69.05
 "Neon 20",electron,N0,initial,E03,119.35,47.875,69.05,119.35,47.875,69.05
 "Neon 20",electron,N0,initial,E04,119.35,47.875,-69.05,119.35,47.875,-69.05
-"Neon 20",electron,N0,initial,E05,33.95,67.75,32.275,33.95,67.75,32.275
-"Neon 20",electron,N0,initial,E06,24.75,-40.125,66.275,24.75,-40.125,66.275
-"Neon 20",electron,N0,initial,E07,-58.7,25.9,41.275,-58.7,25.9,41.275
-"Neon 20",electron,N0,initial,E08,-38.55,-63.875,-25,-38.55,-63.875,-25
-"Neon 20",electron,N0,initial,E09,63.3,-23.75,-41.275,63.3,-23.75,-41.275
-"Neon 20",electron,N0,initial,E10,-24.75,41.85,-73.55,-24.75,41.85,-73.55
+"Neon 20",electron,N0,initial,E05,72.5,2.15,0,72.5,2.15,0
+"Neon 20",electron,N0,initial,E06,33.95,67.75,32.275,33.95,67.75,32.275
+"Neon 20",electron,N0,initial,E07,-24.75,41.85,-73.55,-24.75,41.85,-73.55
+"Neon 20",electron,N0,initial,E08,63.3,-23.75,-41.275,63.3,-23.75,-41.275
+"Neon 20",electron,N0,initial,E09,-38.55,-63.875,-25,-38.55,-63.875,-25
+"Neon 20",electron,N0,initial,E10,24.75,-40.125,66.275,24.75,-40.125,66.275
 "Neon 20",electron,N0,initial,E11,-58.7,25.9,41.275,-58.7,25.9,41.275

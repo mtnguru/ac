@@ -79,7 +79,7 @@ blocks:
           structure: Structure
         - {directory: atom_viewer }
       theme--reset:               ['Reset Theme',      'button']
-#     theme--saveButton:          ['Save Changes',     'button']
+      theme--saveButton:          ['Save Changes',     'button']
 #     theme--enableNewTheme:      ['Create new theme', 'button']
       theme--message:             [ null,              'container']
 

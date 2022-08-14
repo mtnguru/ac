@@ -17,4 +17,5 @@ views:
     name: Atom Builder
     producer: prod_atom_builder
     defaultAtom: carbon.yml
-    defaultTheme: electrons1
+#   defaultTheme: electrons-spherical
+    defaultTheme: electron-orbitals

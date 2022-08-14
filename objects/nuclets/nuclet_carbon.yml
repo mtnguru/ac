@@ -74,14 +74,20 @@ geoGroups:
     components:
       solid:
         shape: icosahedron
-        scale: 6
+        scale: 3
         wireframe: true
         faces: true
-
-      vertexids:
-        shape: icosahedron
-        scale: 1.55
-        vertexids: true
+        rotation:
+          y: 90
+#     axes:
+#       shape: icosahedron
+#       scale: 3
+#       vertices:
+#         - [0, 10]
+#     vertexids:
+#       shape: icosahedron
+#       scale: 1.55
+#       vertexids: true
 #     faceids:
 #       shape: icosahedron
 #       scale: 1.3

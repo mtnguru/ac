@@ -6,7 +6,7 @@ settings:
     setting: '#c9c9c9'
     type: color
   animation--speed:
-    setting: '50'
+    setting: '7'
     type: range
   atom--sam-lines-button:
     setting:
@@ -107,13 +107,13 @@ settings:
     setting: 30
     type: range
   camera--position--x:
-    setting: 0
+    setting: 462
     type: position
   camera--position--y:
-    setting: 2000
+    setting: -1667
     type: position
   camera--position--z:
-    setting: -200
+    setting: -1023
     type: position
   carbon--scale:
     setting: 1
@@ -377,7 +377,7 @@ settings:
     setting: 1
     type: range
   icosa--scale:
-    setting: '1'
+    setting: '3.15'
     type: range
   icosaAxis--color:
     setting: '#ffbbcc'
@@ -401,7 +401,7 @@ settings:
     setting: '0'
     type: range
   icosaOut--scale:
-    setting: '0.16'
+    setting: '0.84'
     type: range
   icosaOutFaceid--opacity:
     setting: 0
@@ -416,13 +416,13 @@ settings:
     setting: 0
     type: range
   icosaOutWireframe--color:
-    setting: '#4fd5ce'
+    setting: '#6072fb'
     type: color
   icosaOutWireframe--linewidth:
     setting: '2'
     type: range
   icosaOutWireframe--opacity:
-    setting: '0'
+    setting: '1'
     type: range
   icosaVertexid--opacity:
     setting: 0
@@ -581,7 +581,7 @@ settings:
     type: range
     setting: 50
   proton--scale:
-    setting: '1'
+    setting: '0.85'
     type: range
   proton-beryllium--color:
     setting: '#9e5e43'
@@ -649,6 +649,12 @@ settings:
   snapshot--cycle:
     setting: false
     type: checkbox
+  snapshot--height:
+    setting: 1000
+    type: range
+  snapshot--width:
+    setting: 1000
+    type: range
   spotlight-1--color:
     setting: '#978d97'
     type: color
