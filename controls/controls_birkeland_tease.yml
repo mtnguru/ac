@@ -2,11 +2,11 @@ name: Birkeland Viewer
 
 sidebar:
   top:
-    buttons:      {show: true}
+    buttons:      {show: false}
   center:
     properties:
     information:
-    animations:   {show: true}
+    animations:   {show: false}
     theme:
 
 blocks:

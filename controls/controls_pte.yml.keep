@@ -24,7 +24,7 @@ blocks:
       toggle--select-scene:       ['Select Scene',     'button',      {font-awesome: fa-picture-o,      data-destination: sidebar, data-blockid: blocks--select-scene}]
       toggle--properties:         ['Properties',       'button',      {font-awesome: fa-list,           data-destination: sidebar, data-blockid: blocks--properties}]
       toggle--mouse-mode:         ['Mouse Mode',       'button',      {font-awesome: fa-mouse-pointer,  data-destination: sidebar, data-blockid: blocks--mouse-mode}]
-      controls--snapshot:         ['Take snapshot',    'snapshot',    {font-awesome: fa-camera,         sound-file: snapshot.wav}]
+      controls--snapshot:         ['Take Snapshot',    'snapshot',    {font-awesome: fa-camera,         sound-file: snapshot.wav}]
       toggle--theme:              ['Edit Theme',       'button',      {font-awesome: fa-paint-brush,    data-destination: sidebar, data-blockid: blocks--theme}]
       toggle--animations:         ['Animations',       'button',      {font-awesome: fa-caret-right,    data-destination: sidebar, data-blockid: blocks--animations}]
       viewer--fullScreen:         ['Full screen',      'toggle',      {font-awesome: fa-arrows-alt}]
