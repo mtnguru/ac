@@ -6,7 +6,7 @@ settings:
     setting: '#c9c9c9'
     type: color
   animation--speed:
-    setting: '50'
+    setting: '7'
     type: range
   atom--sam-lines-button:
     setting:

@@ -131,17 +131,17 @@ geoGroups:
         shape: initial
         scale: 1
         wireframe: true
-#     axes:
-#       shape: icosahedron
-#       axes:
-#         scale: 3
-#         vertices:
-#           - [0, 3]
-#           - [1, 2]
-#           - [4, 7]
-#           - [5, 6]
-#           - [8, 11]
-#           - [9, 10]
+      axes:
+        shape: icosahedron
+        axes:
+          scale: 3
+          vertices:
+            - [0, 3]
+            - [1, 2]
+            - [4, 7]
+            - [5, 6]
+            - [8, 11]
+            - [9, 10]
 #     vertexids:
 #       shape: icosahedron
 #       scale: 1.55
@@ -152,13 +152,14 @@ geoGroups:
 #       faceids: true
 
   icosaOut:
-    rotation:
-      y: 90
     components:
       solid:
         shape: icosahedron
-        scale: 6
+        scale: 3
         wireframe: true
+        faces: true
+        rotation:
+          y: 90
 #     vertexids:
 #       shape: icosahedron
 #       scale: 1.55

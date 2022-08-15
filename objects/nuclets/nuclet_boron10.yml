@@ -38,12 +38,14 @@ geoGroups:
             pairs: polar
         neutrons:
           U00: [[P6,P7,P9,-1]]
-          U02: [[P0,P7,P9,-1]]
+#         U02: [[P0,P7,P9,-1]]
+          U02: [[P0,P7,P9]]
           U03: [[P2,P6,P9,-1]]
 
           U01: [[P4,P5,P9,-1]]
           U04: [[P0,P4,P9,-1]]
-          U05: [[P2,P5,P9,-1]]
+#         U05: [[P2,P5,P9,-1]]
+          U05: [[P2,P5,P9]]
 
   boron10:
 #   rotation:
