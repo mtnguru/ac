@@ -4,7 +4,7 @@ themeDirectory: config/themes/pte
 animateDirectory: config/animations/pte
 controlFile: controls_pte_tease.yml
 atomizerId: pte-tease
-classes: [az-float-controls]
+classes: [az-overlay-controls]
 libraries: [atomizer/atomizer-obfuscator, atomizer/atomizer-pte-obfuscator]
 librariesDev: [atomizer/atomizer-base, atomizer/atomizer-pte]
 objects: [nuclets]
