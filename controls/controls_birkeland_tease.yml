@@ -6,7 +6,7 @@ sidebar:
   center:
     properties:
     information:
-    animations:   {show: false}
+    animations:
     theme:
 
 blocks:

@@ -1,4 +1,4 @@
-name: electron-orbitals.yml
+5ame: electron-orbitals.yml
 description: 'Display electrons manually placed by builder'
 filepath: config/themes/atom_viewer/electron-orbitals.yml
 settings:
@@ -6,7 +6,7 @@ settings:
     setting: '#c9c9c9'
     type: color
   animation--speed:
-    setting: '7'
+    setting: '5'
     type: range
   atom--sam-lines-button:
     setting:
