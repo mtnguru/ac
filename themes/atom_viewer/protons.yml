@@ -6,7 +6,7 @@ settings:
     setting: '#c9c9c9'
     type: color
   animation--speed:
-    setting: '50'
+    setting: '5'
     type: range
   atom--sam-lines-button:
     setting:
@@ -110,10 +110,10 @@ settings:
     setting: -1
     type: position
   camera--position--y:
-    setting: 2426
+    setting: 1200
     type: position
   camera--position--z:
-    setting: -443
+    setting: -1200
     type: position
   carbon--scale:
     setting: 1
@@ -740,7 +740,7 @@ settings:
     setting: 1
     type: range
   tetraAxis--opacity:
-    setting: 0
+    setting: .3
     type: range
   tetraFaceid--opacity:
     setting: 0

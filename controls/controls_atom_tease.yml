@@ -4,6 +4,7 @@ sidebar:
   top:
     buttons:     {show: true}
   center:
+    animations:
     information: {show: true}
     selectTheme:
 
@@ -37,7 +38,7 @@ blocks:
     title:               Animations
     controls:
       animation--label:           ['Animations',       'header',   fa-caret-right]
-      animation--selectyml:       [ null,              'selectyml',       'cycle_atoms.yml',   'animation',   'config/animations/atom_viewer', 'atomizer.ajax_yml_load']
+      animation--selectyml:       [ null,              'selectyml',       'orbitals.yml',   'animation',   'config/animations/atom_viewer', 'atomizer.ajax_yml_load']
       animation--wrapper:
         id: 'animation-wrapper'
         controls:
@@ -48,9 +49,17 @@ blocks:
 #         animation--step-forward:    ['Next',             'button',  {font-awesome: fa-step-forward}]
       animation--speed:               ['Speed',            'range',   3,  [0, 100, .1]]
 
-
   help:
     title:      Help Popup
     controls: 
       help--label:                    [Help,     header,     fa-question]
       container:                      [null,     container]
+
+  labels:
+    title:               Labels
+    controls:
+      labels--label:               ['Labels',  header]
+      labels--enable:              ['Enable', 'checkbox', true]
+      labels--color:               ['Color',          color,    '#ffff33']
+      labels--fontsize:            ['Font Size',      range,     14,  [10, 70, 1]]
+
