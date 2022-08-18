@@ -17,4 +17,4 @@ views:
     name: Molecule Builder
     producer: prod_scene
     defaultAtom: carbon.yml
-    defaultTheme: electrons1
+    defaultTheme: electrons-andreas3

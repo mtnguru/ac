@@ -1,6 +1,6 @@
 name: Default
 description: 'Initial theme settings'
-filepath: config/themes/platonic_solids_duals/Default.yml
+filepath: config/themes/platonic_solids/Default.yml
 settings:
   ambient--color:
     setting: '#777777'
@@ -15,10 +15,10 @@ settings:
     setting: 0
     type: position
   camera--position--y:
-    setting: 1300
+    setting: 1500
     type: position
   camera--position--z:
-    setting: -800
+    setting: -900
     type: position
   dodeca--rotation--x:
     setting: 0
@@ -39,10 +39,10 @@ settings:
     setting: 1
     type: range
   dodecaFaces--color:
-    setting: '#000b83'
+    setting: '#0800ca'
     type: color
   dodecaFaces--opacity:
-    setting: '0.5'
+    setting: '0.7'
     type: range
   dodecaVertexid--opacity:
     setting: 0
@@ -81,10 +81,10 @@ settings:
     setting: 1
     type: range
   hexaFaces--color:
-    setting: '#6c006c'
+    setting: '#aa00aa'
     type: color
   hexaFaces--opacity:
-    setting: '0.5'
+    setting: '0.7'
     type: range
   hexaVertexid--opacity:
     setting: 0
@@ -120,10 +120,10 @@ settings:
     setting: 1
     type: range
   icosaFaces--color:
-    setting: '#6a0000'
+    setting: '#aa0000'
     type: color
   icosaFaces--opacity:
-    setting: '0.5'
+    setting: '0.7'
     type: range
   icosaVertexid--opacity:
     setting: 0
@@ -159,10 +159,10 @@ settings:
     setting: 1
     type: range
   octaFaces--color:
-    setting: '#808000'
+    setting: '#d5d50f'
     type: color
   octaFaces--opacity:
-    setting: '0.5'
+    setting: '0.56'
     type: range
   octaVertexid--opacity:
     setting: 0
@@ -180,10 +180,10 @@ settings:
     setting: 1
     type: range
   plane--color:
-    setting: '#0d1f3c'
+    setting: '#002401'
     type: color
   plane--depth:
-    setting: 1200
+    setting: 1500
     type: range
   plane--opacity:
     setting: 1
@@ -207,10 +207,10 @@ settings:
     setting: 1
     type: rotation
   plane--width:
-    setting: 1300
+    setting: 1500
     type: range
   proton--color-style:
-    setting: alpha3
+    setting: grey
     type: radios
   proton--opacity:
     setting: '0.58'
@@ -219,36 +219,6 @@ settings:
     type: range
     setting: 50
   proton--scale:
-    setting: 1
-    type: range
-  proton-default--color:
-    setting: '#919191'
-    type: color
-  proton-ghost--color:
-    setting: '#aa55aa'
-    type: color
-  proton-grow--color:
-    setting: '#559999'
-    type: color
-  proton-neutral--color:
-    setting: '#995555'
-    type: color
-  proton-polar--color:
-    setting: '#999955'
-    type: color
-  proton-valence--color:
-    setting: '#995599'
-    type: color
-  protonVertexid--color:
-    setting: '#ff00ff'
-    type: color
-  protonVertexid--opacity:
-    setting: '0'
-    type: range
-  protonVertexid--scale:
-    setting: 1
-    type: range
-  protons--scale:
     setting: 1
     type: range
   renderer--color:
@@ -309,10 +279,10 @@ settings:
     setting: 1
     type: range
   tetraFaces--color:
-    setting: '#009200'
+    setting: '#64b564'
     type: color
   tetraFaces--opacity:
-    setting: '0.5'
+    setting: '0.7'
     type: range
   tetraVertexid--opacity:
     setting: '0'

@@ -6,7 +6,7 @@ sidebar:
 #   sceneName:    {show: true}
   center:
     pte-mode:     {show: true}
-#   snapshot:
+    snapshot:
 
 blocks:
 
@@ -19,11 +19,21 @@ blocks:
     controls:
       toggle--pte-mode:           ['PTE Style',         'button',      {font-awesome: fa-paint-brush,  data-destination: sidebar, data-blockid: blocks--pte-mode}]
       viewer--fullScreen:         ['Full screen',      'toggle',      {font-awesome: fa-arrows-alt}]
-      snapshot--shutter:          ['Take snapshot',    'button',      {font-awesome: fa-camera,         sound-file: snapshot.wav}]
+      toggle--snapshot:           ['Take Snapshot',    'button',      {font-awesome: fa-camera,         data-destination: sidebar, data-blockid: blocks--snapshot}]
       theme--pteReset:            ['Reset Camera',     'button',      {font-awesome: fa-video}]
 #     atomizer--help:             ['Help',             'popup-node',  {font-awesome: fa-question,       data-destination: sidebar, data-blockid: blocks--help, data-nid: 335,    data-viewmode: full}]
 
 
+  snapshot:
+    title:               Snapshot,    fa-camera
+    controls:
+      snapshot--label:       ['Snapshot',      header,    fa-camera]
+      snapshot--name:        ['Name',          textfield, '', 20]
+      snapshot--resolution:  ['Resolution',    header]
+      snapshot--suggested:   ['PTE Aspect - 1:1.86',    header]
+      snapshot--width:       ['Width',         range, 4000, [0, 5000, 10]]
+      snapshot--height:      ['Height',        range, 2150, [0, 5000, 10]]
+      snapshot--save:        ['Take Snapshot', button,   {sound-file: snapshot.wav}]
   pte-mode:
     title:               PTE Style
     controls:

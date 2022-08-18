@@ -107,13 +107,13 @@ settings:
     setting: 30
     type: range
   camera--position--x:
-    setting: 0
+    setting: -1
     type: position
   camera--position--y:
-    setting: 2000
+    setting: 2426
     type: position
   camera--position--z:
-    setting: -200
+    setting: -443
     type: position
   carbon--scale:
     setting: 1
@@ -412,6 +412,18 @@ settings:
   icosaOutFaces--opacity:
     setting: '0'
     type: range
+  icosaOutFacesHover--color:
+    setting: '#ffaaff'
+    type: color
+  icosaOutFacesHover--opacity:
+    setting: 0.6
+    type: range
+  icosaOutFacesSelected--color:
+    setting: '#00FFFF'
+    type: color
+  icosaOutFacesSelected--opacity:
+    setting: 0.4
+    type: range
   icosaOutVertexid--opacity:
     setting: 0
     type: range
@@ -431,7 +443,7 @@ settings:
     setting: 1
     type: range
   icosaWireframe--color:
-    setting: '#00c5ff'
+    setting: '#004cff'
     type: color
   icosaWireframe--linewidth:
     setting: '2'
@@ -505,6 +517,33 @@ settings:
   nuclet-volume--scale:
     setting: '4'
     type: range
+  nucletAxes--linewidth:
+    setting: 1
+    type: range
+  nucletAxes--opacity:
+    setting: 0
+    type: range
+  nucletAxes--scale:
+    setting: 4
+    type: range
+  nucletInnerAxes--linewidth:
+    setting: 3
+    type: range
+  nucletInnerAxes--opacity:
+    setting: 0
+    type: range
+  nucletInnerAxes--scale:
+    setting: 3
+    type: range
+  nucletOuterAxes--linewidth:
+    setting: 5
+    type: range
+  nucletOuterAxes--opacity:
+    setting: 0
+    type: range
+  nucletOuterAxes--scale:
+    setting: 2
+    type: range
   octa--rotation--x:
     setting: '0'
     type: rotation
@@ -572,10 +611,10 @@ settings:
     setting: true
     type: checkbox
   proton--opacity:
-    setting: '0.87'
+    setting: '0.9'
     type: range
   proton--proton-colors:
-    setting: true
+    setting: false
     type: checkbox
   proton--radius:
     type: range
@@ -649,6 +688,12 @@ settings:
   snapshot--cycle:
     setting: false
     type: checkbox
+  snapshot--height:
+    setting: 1000
+    type: range
+  snapshot--width:
+    setting: 1000
+    type: range
   spotlight-1--color:
     setting: '#978d97'
     type: color
@@ -704,7 +749,7 @@ settings:
     setting: '1.33'
     type: range
   tetraFaces--color:
-    setting: '#0f4f00'
+    setting: '#0e4d00'
     type: color
   tetraFaces--opacity:
     setting: '0.35'
@@ -734,7 +779,7 @@ settings:
     setting: '#29ff00'
     type: color
   tetraWireframe--linewidth:
-    setting: '2'
+    setting: '1.5'
     type: range
   tetraWireframe--opacity:
     setting: '1'
@@ -770,3 +815,12 @@ settings:
   volume--scale:
     setting: '3'
     type: range
+  x:
+    setting: camera--position--x
+    type: -4
+  'y':
+    setting: camera--position--y
+    type: 1745
+  z:
+    setting: camera--position--z
+    type: -1303

@@ -9,6 +9,7 @@ libraries: [atomizer/atomizer-obfuscator, atomizer/atomizer-birkeland-obfuscator
 librariesDev: [atomizer/atomizer-base, atomizer/atomizer-birkeland]
 objects: [nuclets]
 canvasRatio: window
+showBessel: true
 renderer: webgl
 startAnimation: true
 views:

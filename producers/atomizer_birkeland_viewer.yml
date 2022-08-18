@@ -8,6 +8,7 @@ classes: [az-overlay-controls]
 libraries: [atomizer/atomizer-obfuscator, atomizer/atomizer-birkeland-obfuscator]
 librariesDev: [atomizer/atomizer-base, atomizer/atomizer-birkeland]
 canvasRatio: window
+showBessel: true
 renderer: webgl
 startAnimation: true
 views:

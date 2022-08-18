@@ -6,6 +6,9 @@ settings:
   ambient--color:
     setting: '#c9c9c9'
     type: color
+  animation--smooth:
+    setting: 3
+    type: range
   animation--speed:
     setting: '20'
     type: range

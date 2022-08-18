@@ -575,7 +575,7 @@ settings:
     setting: '0.91'
     type: range
   proton--proton-colors:
-    setting: true
+    setting: false
     type: checkbox
   proton--radius:
     type: range
