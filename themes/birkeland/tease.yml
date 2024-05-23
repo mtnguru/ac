@@ -40,10 +40,10 @@ settings:
     setting: '40'
     type: position
   camera--position--y:
-    setting: 300
+    setting: 600
     type: position
   camera--position--z:
-    setting: -1200
+    setting: -1500
     type: position
   cylinders--extrude:
     setting: '100'

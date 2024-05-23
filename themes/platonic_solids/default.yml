@@ -6,7 +6,7 @@ settings:
     setting: '#777777'
     type: color
   animation--speed:
-    setting: 3
+    setting: 5
     type: range
   camera--perspective:
     setting: 25

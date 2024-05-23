@@ -5,7 +5,7 @@ sidebar:
   center:
     information: {show: true}
     mouse-mode:
-    animation:   {show: true}
+#   animation:   {show: true}
     theme:
 
 blocks:
@@ -13,7 +13,7 @@ blocks:
   buttons:
     controls:
       toggle--theme:              ['Edit Theme',       'button',      {font-awesome: fa-paint-brush, data-destination: sidebar, data-blockid: blocks--theme}]
-      toggle--animations:         ['Animations',       'button',      {font-awesome: fa-caret-right, data-destination: sidebar, data-blockid: blocks--animations}]
+#     toggle--animations:         ['Animations',       'button',      {font-awesome: fa-caret-right, data-destination: sidebar, data-blockid: blocks--animations}]
       viewer--fullScreen:         ['Full screen',      'toggle',      {font-awesome: fa-arrows-alt}]
       theme--cameraReset:         ['Reset Camera',     'button',      {font-awesome: fa-video}]
 #     atomizer--help:             ['Help',             'popup-node',  {font-awesome: fa-question     data-nid: 330,    data-viewmode: default}]
@@ -22,12 +22,12 @@ blocks:
     title:               Theme,       fa-paint-brush
     controls:
       theme--loadlabel:           ['Theme',            'header',   fa-paintbrush]
-      theme--selectyml:           [ null,              'selectyml', 'Default.yml',   'theme',   'config/themes/platonic_solids', 'atomizer.ajax_yml_load']
-      theme--reset:               ['Reset Theme',      'button']
-      theme--saveButton:          ['Save Changes',     'button']
-      theme--enableNewTheme:      ['Create new theme', 'button']
-      theme--message:             [ null,              'container']
-      hr1:                        [ null,              'hr']
+#     theme--selectyml:           [ null,              'selectyml', 'Default.yml',   'theme',   'config/themes/platonic_solids', 'atomizer.ajax_yml_load']
+#     theme--reset:               ['Reset Theme',      'button']
+#     theme--saveButton:          ['Save Changes',     'button']
+#     theme--enableNewTheme:      ['Create new theme', 'button']
+#     theme--message:             [ null,              'container']
+#     hr1:                        [ null,              'hr']
       theme--selectBlock:
         - ''
         - selectblock
@@ -58,17 +58,12 @@ blocks:
       animation--speed:               ['Speed',            'range',   3,  [0, 100, .1]]
 
   protons:
-    title:               Protons
+    title:               Spheres
     controls:
-      proton--label:               ['Protons', 'header']
+      proton--label:               ['Spheres', 'header']
       proton--opacity:             ['Opacity',          'range',     1, [0, 1, .01]]
-      proton--scale:              ['Scale',            'range',     1, [0, 3, .01]]
-      proton-default--color:       ['Default',          'color',    '#559999']
-
-      hr2:                        [ null,           'hr']
-      protonVertexid--color:      ['Proton IDs',    'color',    '#ff00ff']
-      protonVertexid--opacity:    ['Opacity',       'range',    1, [0, 1, .01]]
-      protonVertexid--scale:      ['Scale',         'range',    1,  [0, 3, .01]]
+      proton--scale:               ['Scale',            'range',     1, [0, 3, .01]]
+      proton-default--color:       ['Color',            'color',    '#559999']
 
   tetrahedron:
     title:               Tetrahedron
@@ -81,9 +76,9 @@ blocks:
       tetraWireframe--opacity:     ['Opacity',      'range',     1, [0, 1, .01]]
       tetraWireframe--linewidth:   ['Linewidth',    'range',     3, [0, 5, .1]]
 
-      hr2:                         [ null, 'hr']
-      tetraFaces--color:           ['Faces',        'color',    '#005500']
-      tetraFaces--opacity:         ['Opacity',      'range',     0, [0, 1, .01]]
+#     hr2:                         [ null, 'hr']
+#     tetraFaces--color:           ['Faces',        'color',    '#005500']
+#     tetraFaces--opacity:         ['Opacity',      'range',     0, [0, 1, .01]]
 
   hexahedron:
     title:               Hexahedron - Cube
@@ -96,9 +91,9 @@ blocks:
       hexaWireframe--opacity:      ['Opacity',      'range',     1, [0, 1, .01]]
       hexaWireframe--linewidth:    ['Linewidth',    'range',     3, [0, 5, .1]]
 
-      hr2:                         [ null, 'hr']
-      hexaFaces--color:            ['Faces',        'color',    '#aa00aa']
-      hexaFaces--opacity:          ['Opacity',      'range',     0, [0, 1, .01]]
+#     hr2:                         [ null, 'hr']
+#     hexaFaces--color:            ['Faces',        'color',    '#aa00aa']
+#     hexaFaces--opacity:          ['Opacity',      'range',     0, [0, 1, .01]]
 
   octahedron:
     title:               Octahedron
@@ -111,9 +106,9 @@ blocks:
       octaWireframe--opacity:      ['Opacity',      'range',     1, [0, 1, .01]]
       octaWireframe--linewidth:    ['Linewidth',    'range',     3, [0, 5, .1]]
 
-      hr2:                         [ null, 'hr']
-      octaFaces--color:            ['Faces',        'color',    '#aaaa00']
-      octaFaces--opacity:          ['Opacity',      'range',     0, [0, 1, .01]]
+#     hr2:                         [ null, 'hr']
+#     octaFaces--color:            ['Faces',        'color',    '#aaaa00']
+#     octaFaces--opacity:          ['Opacity',      'range',     0, [0, 1, .01]]
  
   icosahedron:
     title:               Icosahedron
@@ -126,9 +121,9 @@ blocks:
       icosaWireframe--opacity:    ['Opacity',      'range',     1, [0, 1, .01]]
       icosaWireframe--linewidth:  ['Linewidth',    'range',     3, [0, 5, .1]]
 
-      hr2:                        [ null, 'hr']
-      icosaFaces--color:          ['Faces',        'color',    '#aa0000']
-      icosaFaces--opacity:        ['Opacity',      'range',     0, [0, 1, .01]]
+#     hr2:                        [ null, 'hr']
+#     icosaFaces--color:          ['Faces',        'color',    '#aa0000']
+#     icosaFaces--opacity:        ['Opacity',      'range',     0, [0, 1, .01]]
 
   dodecahedron:
     title:               Dodecahedron
@@ -141,9 +136,9 @@ blocks:
       dodecaWireframe--opacity:     ['Opacity',      'range',     1, [0, 1, .01]]
       dodecaWireframe--linewidth:   ['Linewidth',    'range',     3, [0, 5, .1]]
 
-      hr2:                          [ null, 'hr']
-      dodecaFaces--color:           ['Faces',        'color',    '#88cccc']
-      dodecaFaces--opacity:         ['Opacity',      'range',     0, [0, 1, .01]]
+#     hr2:                          [ null, 'hr']
+#     dodecaFaces--color:           ['Faces',        'color',    '#88cccc']
+#     dodecaFaces--opacity:         ['Opacity',      'range',     0, [0, 1, .01]]
 
   scene:
     title:               Scene
