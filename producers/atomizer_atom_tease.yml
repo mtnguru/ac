@@ -8,7 +8,7 @@ classes: [az-overlay-controls]
 libraries: [atomizer/atomizer-obfuscator, atomizer/atomizer-atom-viewer-obfuscator]
 librariesDev: [atomizer/atomizer-base, atomizer/atomizer-atom-viewer]
 objects: [nuclets]
-canvasRatio: .75
+canvasRatio: .80
 renderer: webgl
 startAnimation: true
 views:

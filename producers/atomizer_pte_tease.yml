@@ -8,7 +8,7 @@ classes: [az-overlay-controls]
 libraries: [atomizer/atomizer-obfuscator, atomizer/atomizer-pte-obfuscator]
 librariesDev: [atomizer/atomizer-base, atomizer/atomizer-pte]
 objects: [nuclets]
-canvasRatio: windows
+canvasRatio: .5
 renderer: css3d
 views:
   default:
