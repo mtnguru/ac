@@ -47,7 +47,7 @@ blocks:
 #         animation--stop:            ['Stop',             'button',  {font-awesome: fa-stop,  class: az-selected}]
 #         animation--step-backward:   ['Previous',         'button',  {font-awesome: fa-step-backward}]
 #         animation--step-forward:    ['Next',             'button',  {font-awesome: fa-step-forward}]
-      animation--speed:               ['Speed',            'range',   12,  [0, 100, .1]]
+      animation--speed:               ['Speed',            'range',   12,  [0, 40, .1]]
 
   labels:
     title:               Labels

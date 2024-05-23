@@ -9,6 +9,7 @@ sidebar:
     information: {show: true}
     properties:  {show: true}
     theme:
+    nuclet-list:
 
 blocks:
   sceneName:
@@ -20,6 +21,7 @@ blocks:
     controls:
       toggle--properties:         ['Atom Properties',  'button',     {font-awesome: fa-list,           data-destination: sidebar, data-blockid: blocks--properties}]
       toggle--information:        ['Atom Information', 'button',     {font-awesome: fa-info-circle,    data-destination: sidebar, data-blockid: blocks--information}]
+      toggle--nuclet-list:        ['Edit Nuclet',      'button',      {font-awesome: fa-futbol,         data-destination: sidebar, data-blockid: blocks--nuclet-list}]
 
       toggle--theme:              ['Edit Theme',       'button',     {font-awesome: fa-paint-brush,    data-destination: sidebar, data-blockid: blocks--theme}]
       toggle--animations:         ['Animations',       'button',     {font-awesome: fa-caret-right,    data-destination: sidebar, data-blockid: blocks--animations}]
@@ -40,6 +42,49 @@ blocks:
           animation--pause:           ['Pause',            'button',  {font-awesome: fa-pause}]
       #         animation--stop:            ['Stop',             'button',  {font-awesome: fa-stop,  class: az-selected}]
       animation--speed:               ['Speed',            'range',   3,  [0, 40, 1]]
+
+
+  nuclet-list:
+    title:               Edit Nuclets
+    controls:
+      nuclet-label:               ['Nuclets',             'header',  fa-futbol]
+      atom--num-protons:          ['Protons',             'text', '', 6 ]
+      atom--num-electrons:        ['Electrons',           'text', '', 6 ]
+      atom--sam-lines:            ['SAM Lines',           'text', '', 6 ]
+      atom--be-sam-lines:         ['BE SAM Lines',        'text', '', 6 ]
+      atom--be-actual:            ['BE Actual',           'text', '', 6 ]
+      atom--be-sam-lines-perc:    ['BE Difference',       'text', '', 6 ]
+      hr1:                        [ null,                 'hr']
+      atom--sam-lines-button:     ['Show SAM Lines', 'toggle',  {font-awesome: fa-bolt}]
+      nuclet--list:               [ null,                 'container']
+#     hr2:                        [ null,                 'hr']
+#     atom--save:                 ['Save Atom',           'link',    'modal',   'entity.node.edit_form', {node: 119}]
+#     atom--saveNew:              ['Create New Atom',     'link',    'modal',   'node.add',    {node_type: atom}]
+
+  nuclet-form:
+    title:               Nuclet Form
+    controls:
+      nuclet--state:
+        - State
+        - radios
+        - initial
+        -
+          lithium: Lithium 7
+          beryllium: Beryllium 8
+          boron10: Boron 10
+          boron11: Boron 11
+          carbon: Carbon 12
+          initial: Initial Backbone
+          final: Final Backbone
+      nuclet--attachAngle:        ['Angle',            'range',   1,  [1, 5, 1]]
+      nuclet--fizzer:             ['Fizzer',           'range',   1,  [1, 5, .2]]
+      nuclet--grow-label:         ['Grow Points',      'label']
+      nuclet--grow-0:             ['&nbsp;&nbsp;0',    'html',    '--']
+      nuclet--grow-1:             ['&nbsp;&nbsp;1',    'html',    '--']
+      nuclet--delete:             ['Delete',           'button']
+
+
+
 
   properties:
     title: Properties
