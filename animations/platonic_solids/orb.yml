@@ -1,4 +1,4 @@
-name: Orbit around image
+name: Loop Structure
 animations:
   rotation:
     name: orbitals

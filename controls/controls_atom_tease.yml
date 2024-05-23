@@ -16,7 +16,7 @@ blocks:
       toggle--animations:         ['Animations',       'button',     {font-awesome: fa-caret-right,    data-destination: sidebar, data-blockid: blocks--animations}]
       viewer--fullScreen:         ['Full screen',      'toggle',     {font-awesome: fa-arrows-alt}]
       theme--cameraReset:         ['Reset Camera',     'button',     {font-awesome: fa-video}]
-      atomizer--help:             ['Help',             'popup-node', {font-awesome: fa-question,       data-destination: sidebar, data-blockid: blocks--help, data-nid: 536,    data-viewmode: full}]
+#     atomizer--help:             ['Help',             'popup-node', {font-awesome: fa-question,       data-destination: sidebar, data-blockid: blocks--help, data-nid: 536,    data-viewmode: full}]
 
   selectTheme:
     title:               Theme
@@ -49,6 +49,12 @@ blocks:
 #         animation--step-forward:    ['Next',             'button',  {font-awesome: fa-step-forward}]
       animation--speed:               ['Speed',            'range',   12,  [0, 40, .1]]
 
+  help:
+    title:      Help Popup
+    controls: 
+      help--label:                    [Help,     header,     fa-question]
+      container:                      [null,     container]
+
   labels:
     title:               Labels
     controls:
@@ -57,8 +63,3 @@ blocks:
       labels--color:               ['Color',          color,    '#ffff33']
       labels--fontsize:            ['Font Size',      range,     14,  [10, 70, 1]]
 
-  help:
-    title:      Help Popup
-    controls:
-      help--label:                    [Help,     header,     fa-question]
-      container:                      [null,     container]

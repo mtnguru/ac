@@ -13,7 +13,7 @@ blocks:
 
   buttons:
     controls:
-      toggle--select-scene:       ['Select Scene',     'button',       {font-awesome: fa-picture-o,      data-blockid: blocks--select-scene}]
+      toggle--select-scene:       ['Select Scene',     'button',       {font-awesome: fa-image,          data-blockid: blocks--select-scene}]
 #     toggle--properties:         ['Properties',       'button',       {font-awesome: fa-list,           data-blockid: blocks--properties}]
       bessel--dialog:             ['Bessel Graph',     'toggleDialog', {font-awesome: fa-chart-line,     data-module: 'bessel',  data-container: '.az-wrapper'}]
 #     toggle--information:        ['Description',      'button',       {font-awesome: fa-info-circle,    data-blockid: blocks--information}]
@@ -21,19 +21,20 @@ blocks:
       toggle--animations:         ['Animation',        'button',       {font-awesome: fa-caret-right,    data-blockid: blocks--animations}]
 #     viewer--fullScreen:         ['Full screen',      'toggle',       {font-awesome: fa-arrows-alt}]
       theme--cameraReset:         ['Reset Camera',     'button',       {font-awesome: fa-video}]
-      atomizer--help:             ['Help',             'popup-node',   {font-awesome: fa-question,       data-blockid: blocks--help, data-nid: 335, data-viewmode: full}]
+#     atomizer--help:             ['Help',             'popup-node',   {font-awesome: fa-question,       data-blockid: blocks--help, data-nid: 335, data-viewmode: full}]
 
   select-scene:
     title:               Select Scene
     controls:
       scene--label:                [ 'Select Scene',  header,    fa-scene]
       scene--select:
-      - ''
-      - radios
-      - 627
-      -
-        627:   Milestones
-        628:   1 cycle
+        - ''
+        - radios
+        - 18
+        -
+          16:   Milestones
+          17:   1 cycle
+          18:   Arrows
 
 # graph:
 #   title:               Bessel Graph

@@ -15,7 +15,7 @@ blocks:
       toggle--animations:         ['Animations',       'button',     {font-awesome: fa-caret-right,    data-destination: sidebar, data-blockid: blocks--animations}]
       viewer--fullScreen:         ['Full screen',      'toggle',     {font-awesome: fa-arrows-alt}]
       theme--cameraReset:         ['Reset Camera',     'button',     {font-awesome: fa-video}]
-      atomizer--help:             ['Help',             'popup-node', {font-awesome: fa-question,       data-destination: sidebar, data-blockid: blocks--help, data-nid: 536,    data-viewmode: full}]
+#     atomizer--help:             ['Help',             'popup-node', {font-awesome: fa-question,       data-destination: sidebar, data-blockid: blocks--help, data-nid: 536,    data-viewmode: full}]
 
   selectTheme:
     title:               Theme

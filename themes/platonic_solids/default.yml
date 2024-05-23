@@ -1,6 +1,6 @@
 name: Default
 description: 'Initial theme settings'
-filepath: config/themes/platonic_solids/Default.yml
+filepath: config/themes/platonic_solids/default.yml
 settings:
   ambient--color:
     setting: '#777777'
@@ -12,13 +12,13 @@ settings:
     setting: 25
     type: range
   camera--position--x:
-    setting: 0
+    setting: 302
     type: position
   camera--position--y:
-    setting: 1500
+    setting: 1159
     type: position
   camera--position--z:
-    setting: -900
+    setting: -1274
     type: position
   dodeca--rotation--x:
     setting: 0
@@ -180,7 +180,7 @@ settings:
     setting: 1
     type: range
   plane--color:
-    setting: '#002401'
+    setting: '#1e0821'
     type: color
   plane--depth:
     setting: 1500
@@ -221,11 +221,11 @@ settings:
   proton--scale:
     setting: 1
     type: range
-  proton-default--color:
-    setting: '#919191'
-    type: color
   proton-carbon--color:
     setting: '#5555ff'
+    type: color
+  proton-default--color:
+    setting: '#919191'
     type: color
   proton-ghost--color:
     setting: '#aa55aa'
@@ -255,7 +255,7 @@ settings:
     setting: 1
     type: range
   renderer--color:
-    setting: '#000000'
+    setting: '#1c2535'
     type: color
   spotlight-1--color:
     setting: '#885555'
@@ -332,3 +332,7 @@ settings:
   tetraWireframe--opacity:
     setting: 1
     type: range
+  viewer--fullScreen:
+    setting:
+      font-awesome: fa-arrows-alt
+    type: toggle

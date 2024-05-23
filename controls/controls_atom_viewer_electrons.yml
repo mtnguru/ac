@@ -13,7 +13,7 @@ blocks:
       toggle--selectTheme:        ['Change Theme',     'button',     {font-awesome: fa-paint-brush,    data-destination: sidebar, data-blockid: blocks--selectTheme}]
       viewer--fullScreen:         ['Full screen',      'toggle',     {font-awesome: fa-arrows-alt}]
       theme--cameraReset:         ['Reset Camera',     'button',     {font-awesome: fa-video}]
-      atomizer--help:             ['Help',             'popup-node', {font-awesome: fa-question,       data-destination: sidebar, data-blockid: blocks--help, data-nid: 536,    data-viewmode: full}]
+#     atomizer--help:             ['Help',             'popup-node', {font-awesome: fa-question,       data-destination: sidebar, data-blockid: blocks--help, data-nid: 536,    data-viewmode: full}]
 
   selectTheme:
     title:               Theme

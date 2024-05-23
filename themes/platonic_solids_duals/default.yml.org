@@ -221,6 +221,39 @@ settings:
   proton--scale:
     setting: 1
     type: range
+  proton-default--color:
+    setting: '#919191'
+    type: color
+  proton-carbon--color:
+    setting: '#5555ff'
+    type: color
+  proton-ghost--color:
+    setting: '#aa55aa'
+    type: color
+  proton-grow--color:
+    setting: '#559999'
+    type: color
+  proton-neutral--color:
+    setting: '#995555'
+    type: color
+  proton-polar--color:
+    setting: '#999955'
+    type: color
+  proton-valence--color:
+    setting: '#995599'
+    type: color
+  protonVertexid--color:
+    setting: '#ff00ff'
+    type: color
+  protonVertexid--opacity:
+    setting: '0'
+    type: range
+  protonVertexid--scale:
+    setting: 1
+    type: range
+  protons--scale:
+    setting: 1
+    type: range
   renderer--color:
     setting: '#000000'
     type: color
