@@ -22,12 +22,12 @@ blocks:
     title:               Theme,       fa-paint-brush
     controls:
       theme--loadlabel:           ['Theme',            'header',   fa-paintbrush]
-#     theme--selectyml:           [ null,              'selectyml', 'Default.yml',   'theme',   'config/themes/platonic_solids', 'atomizer.ajax_yml_load']
-#     theme--reset:               ['Reset Theme',      'button']
-#     theme--saveButton:          ['Save Changes',     'button']
-#     theme--enableNewTheme:      ['Create new theme', 'button']
-#     theme--message:             [ null,              'container']
-#     hr1:                        [ null,              'hr']
+      theme--selectyml:           [ null,              'selectyml', 'Default.yml',   'theme',   'config/themes/platonic_solids', 'atomizer.ajax_yml_load']
+      theme--reset:               ['Reset Theme',      'button']
+      theme--saveButton:          ['Save Changes',     'button']
+      theme--enableNewTheme:      ['Create new theme', 'button']
+      theme--message:             [ null,              'container']
+      hr1:                        [ null,              'hr']
       theme--selectBlock:
         - ''
         - selectblock
@@ -39,6 +39,7 @@ blocks:
           - octahedron
           - icosahedron
           - dodecahedron
+          - c60
           - scene
           - lighting
 
@@ -109,7 +110,7 @@ blocks:
 #     hr2:                         [ null, 'hr']
 #     octaFaces--color:            ['Faces',        'color',    '#aaaa00']
 #     octaFaces--opacity:          ['Opacity',      'range',     0, [0, 1, .01]]
- 
+
   icosahedron:
     title:               Icosahedron
     controls:
@@ -136,9 +137,24 @@ blocks:
       dodecaWireframe--opacity:     ['Opacity',      'range',     1, [0, 1, .01]]
       dodecaWireframe--linewidth:   ['Linewidth',    'range',     3, [0, 5, .1]]
 
-#     hr2:                          [ null, 'hr']
-#     dodecaFaces--color:           ['Faces',        'color',    '#88cccc']
-#     dodecaFaces--opacity:         ['Opacity',      'range',     0, [0, 1, .01]]
+  #     hr2:                          [ null, 'hr']
+  #     dodecaFaces--color:           ['Faces',        'color',    '#88cccc']
+  #     dodecaFaces--opacity:         ['Opacity',      'range',     0, [0, 1, .01]]
+
+  c60:
+    title:               C60
+    controls:
+      c60--scale:                ['Scale',        'range',    1,  [0, 3, .01]]
+      c60--rotation:             ['Rotation',     'rotation', [0, 0, 0], [-360, 360, 1]]
+
+      hr1:                          [ null, 'hr']
+      c60Wireframe--color:       ['Wireframe',    'color',    '#0088ff']
+      c60Wireframe--opacity:     ['Opacity',      'range',     1, [0, 1, .01]]
+      c60Wireframe--linewidth:   ['Linewidth',    'range',     3, [0, 5, .1]]
+
+      hr2:                          [ null, 'hr']
+      c60Faces--color:           ['Faces',      'color',    '#88cccc']
+      c60Faces--opacity:         ['Opacity',    'range',     0, [0, 1, .01]]
 
   scene:
     title:               Scene

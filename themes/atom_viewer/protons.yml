@@ -107,13 +107,13 @@ settings:
     setting: 30
     type: range
   camera--position--x:
-    setting: -1
+    setting: 0
     type: position
   camera--position--y:
-    setting: 1200
+    setting: 648
     type: position
   camera--position--z:
-    setting: -1200
+    setting: -648
     type: position
   carbon--scale:
     setting: 1
@@ -740,7 +740,7 @@ settings:
     setting: 1
     type: range
   tetraAxis--opacity:
-    setting: .3
+    setting: 0.3
     type: range
   tetraFaceid--opacity:
     setting: 0
